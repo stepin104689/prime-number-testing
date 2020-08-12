@@ -7,7 +7,7 @@
 
 /**
 * Identifies whether the number is prime or note
-* @param[in] number for which prime is to be checked
+* @param[in] number for which prime to be checked
 * @return 0 of the prime number
 * @note Returns 1 for non prime numbers
 */
