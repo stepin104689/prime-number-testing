@@ -11,6 +11,6 @@
 * @return 0 of the prime number
 * @note Returns 1 for non prime numbers
 */
-int factorial(int number);
+int prime(int number);
 
 #endif /* #ifndef __PRIME_H__ */
