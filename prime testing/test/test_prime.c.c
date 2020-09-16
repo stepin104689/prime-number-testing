@@ -8,13 +8,13 @@ void tearDown(){}
 
 void test_prime(void)
 {
-  TEST_ASSERT_EQUAL(1, prime(2));
-  TEST_ASSERT_EQUAL(1, prime(3));
+  TEST_ASSERT_EQUAL(0, prime(2));
+  TEST_ASSERT_EQUAL(0, prime(3));
 }
 void test_non_prime(void)
 {
-  TEST_ASSERT_EQUAL(0, prime(4));
-  TEST_ASSERT_EQUAL(0, prime(16));
+  TEST_ASSERT_EQUAL(1, prime(4));
+  TEST_ASSERT_EQUAL(1, prime(16));
 }
 
 
