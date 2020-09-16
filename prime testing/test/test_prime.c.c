@@ -13,8 +13,8 @@ void test_prime(void)
 }
 void test_non_prime(void)
 {
-  TEST_ASSERT_EQUAL(0, factorial(4));
-  TEST_ASSERT_EQUAL(0, factorial(16));
+  TEST_ASSERT_EQUAL(0, prime(4));
+  TEST_ASSERT_EQUAL(0, prime(16));
 }
 
 
