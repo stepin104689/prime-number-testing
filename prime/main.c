@@ -1,4 +1,4 @@
-#include "test_prime.h"
+#include "prime.h"
 
 int main(void)
 {
