@@ -9,8 +9,7 @@ src/prime.c\
 
 # All test source files
 TEST_SRC = src/prime.c\
-test/test_prime.c
-
+test/test_prime_operations.c
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
