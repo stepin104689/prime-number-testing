@@ -7,7 +7,7 @@
 
 /* Prototypes for all the test functions */
 void test_prime(void);
-#void test_notprime(void);
+/*void test_notprime(void);*/
 
 
 /* Start of the application test */
@@ -22,7 +22,7 @@ int main() {
   
   /* Add your test functions in this format for testing*/
   CU_add_test(suite, "prime", test_prime);
-  #CU_add_test(suite, "not prime", test_notprime);
+  //CU_add_test(suite, "not prime", test_notprime);
   
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -44,10 +44,10 @@ void test_prime(void) {
   
 }
 
-#void test_notprime(void) {
+/*void test_notprime(void) {
  # CU_ASSERT(1 == notprime(4));
   
   
-#}
+#}*/
 
 
