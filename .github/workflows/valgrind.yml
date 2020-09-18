@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: |
         make test -C prime/
-        valgrind ./prime/build/Test_prime.out
+        valgrind ./prime/build/test_prime.out
