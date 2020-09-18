@@ -39,7 +39,7 @@ int main() {
 
 /* Write all the test functions */ 
 void test_prime(void) {
-  CU_ASSERT(0== prime(2));
+  CU_ASSERT(1== prime(2));
   
   
 }
