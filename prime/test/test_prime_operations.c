@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <prime_operations.h>
+#include <prime.h>
 #define PROJECT_NAME    "prime"
 
 /* Prototypes for all the test functions */
